@@ -1,0 +1,72 @@
+/*
+================================================================================
+        VARIABLES
+================================================================================
+*/
+
+/*
+________________________________________________________________________________
+        FONTS
+________________________________________________________________________________
+*/
+
+/*
+________________________________________________________________________________
+        BASE
+________________________________________________________________________________
+*/
+//-- Background colors
+$background-body          : black;
+$background-preloader     : #231F20;
+
+$color-primary            : white;
+$color-secondary          : black;
+
+$color-success              : #108a83;
+$color-error                : #89283e;
+
+//-- Font size
+//- Mobile
+$font-size-mobile-small: 11px;         //
+$font-size-mobile: 12px;
+$line-height-mobile: 15px;            //
+$font-size-mobile-subtitle: 10px;     
+$font-size-mobile-title: 15px;        
+$line-height-mobile-title: 18px;      
+$font-size-mobile-big-title: 18px;
+$line-height-mobile-big-title: 20px;
+
+//- Tablet
+$font-size-tablet-small: 11px;
+$font-size-tablet: 12px;
+$line-height-tablet: 16px;
+$font-size-tablet-subtitle: 14px;
+$font-size-tablet-title: 18px;
+$line-height-tablet-title: 20px;
+$font-size-tablet-big-title: 20px;
+$line-height-tablet-big-title: 24px;
+
+//- Desktop
+$font-size-desktop-small: 15px;
+$font-size-desktop: 18px;
+$line-height-desktop: 20px;
+$font-size-desktop-subtitle: 22px;
+$font-size-desktop-title: 24px;
+$line-height-desktop-title: 28px;
+$font-size-desktop-big-title: 32px;
+$line-height-desktop-big-title: 34px;
+
+/*
+________________________________________________________________________________
+        LAYOUTS
+________________________________________________________________________________
+*/
+//*-- Screen Breakpoints
+//-- Tablet
+$breakpoint-first-tablet  : 1130px;
+
+//- Mobile
+$breakpoint-first-mobile  : 376px;
+
+//-- Helper
+
