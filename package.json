@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rm public/assets/js/index.js",
     "dev": "webpack --mode development --display-error-details --module-bind js=babel-loader",
-	"watch-dev": "webpack --watch --mode development --module-bind js=babel-loader",
+	"watch-dev": "webpack --watch --mode development",
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production"
   },

@@ -62,7 +62,7 @@ module.exports = {
 			loader: 'babel-loader',
 			options: {
                     presets: [require.resolve('@babel/preset-env')],
-                    plugins: [require('@babel/plugin-proposal-class-properties'),{ loose: false }]
+                    plugins: [require('@babel/plugin-proposal-class-properties')]
             }
 		  }
         ],
